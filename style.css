@@ -1,0 +1,19 @@
+html, body, .container {
+	height: 100%;
+	margin: 0;
+}
+.container {
+	display: table;
+	width: 100%;
+	background-color: yellow;
+}
+.row {display:table-row;}
+.column {
+	display: table-cell;
+	vertical-align: middle;
+}
+.wrapper {
+	border: 1px;
+	margin: 0 auto;
+	width: 200px;
+}
